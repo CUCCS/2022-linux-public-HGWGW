@@ -159,7 +159,7 @@ sudo ps -e | grep ssh
 
   - 再cd到 `first-dir` 的目录，使用 `touch` 命令，创建三个文件`one`,`two`,`three`,使用`pwd`命令查看他们的路径
   
-  ![虚拟机中创建文件](截图/3.1.虚拟机中创建文件first-dir.png)
+![虚拟机中创建文件](截图/3.1.虚拟机中创建文件first-dir.png)
 
   - 在本地`git-bash`中输入如下命令,就可以传输成功
 
