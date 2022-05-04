@@ -6,7 +6,8 @@ before_install:
   - sudo apt-get install p7zip-full
   - sudo apt-get install ghostscript
 script:
-  - cd chap0x04
+  - cd chap0x04/
+  - cd code/
   - wget "https://c4pr1c3.gitee.io/linuxsysadmin/exp/chap0x04/worldcupplayerinfo.tsv"
   - wget "https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/web_log.tsv.7z"
   - 7z x web_log.tsv.7z
